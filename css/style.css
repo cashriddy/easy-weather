@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: url('/img/cincy-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Bungee Inline';
+}
+hr {
+    background: #efefef;
+    border: 1px solid white;
+}
+.location, .temperature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.degree-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.degree-section h2 {
+    font-size: 40px;
+}
+.degree-section span {
+    margin: 10px;
+    font-size: 30px;
+}
+.weather-box {
+    background: rgba(0,0,0,0.6);
+    padding: 15px;
+    border-radius: 3px;
+}
+.day {
+    list-style-type: none;
+}
+.day ul {
+    list-style-type: none;
+    background: rgba(0,0,0,0.6);
+    padding: 15px 15px 0 15px;
+}
+.temperature-description {
+    font-size: 24px;
+    line-height: 65px;
+    text-align:center;
+}
+#current-weather-icon {
+    font-size: 50px;
+}
+.wi {
+    font-size: 50px;
+}
+.wi-small {
+    font-size: 18px;
+}
+.wi-medium {
+    font-size: 30px;
+}
+.weather-details-block {
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid seagreen;
+    background: #000;
+}
+.weather-value {
+    font-size: 22px;
+}
+.hourly {
+    text-align: left;
+}
+.hourly-summary {
+    text-transform: uppercase;
+}
+.city-search-box {
+    display: flex;
+    justify-content: center;
+}
+.city-search {
+    width: 400px;
+    text-align: center;
+}
+.daily-summary {
+    font-size: 14px;
+}
+.daily-details {
+    display: none;
+}
+.btn-daily-details {
+    padding: 4px 8px;
+    background: #fff;
+    border-radius: 3px;
+}
+#tabs .nav-tabs .nav-link {
+    color: seagreen;
+}
