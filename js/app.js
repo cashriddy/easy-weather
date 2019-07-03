@@ -34,7 +34,7 @@ window.addEventListener('load', () => {
         const lat = place.geometry.location.lat();
         const long = place.geometry.location.lng();
         // Insert latitude and longitude to fetch the weather data from Dark Sky's API
-        const weather = `${proxy}https://api.darksky.net/forecast/16cdd4ef62840ce55d578a66d650e266/${lat},${long}`;
+        const weather = `${proxy}https://api.darksky.net/forecast//${lat},${long}`;
         fetch(weather, {
             headers: {
                 'Accept': 'application/json',
